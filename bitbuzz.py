@@ -18,9 +18,6 @@ def get_bitcoin_price():
 
 while True:
 #current price fetched
-#	data = mybolt.isOnline()
-#	print("Device status by isOnline  ",data)
-
 	current = get_bitcoin_price()
 	print("Current Bitcoin price in USD is ",current)
 
