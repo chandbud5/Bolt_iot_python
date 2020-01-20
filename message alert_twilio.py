@@ -1,3 +1,5 @@
+# THIS WILL GIVE YOU ALERT ON YOUR MOBILE THROUGH TEXT MESSAGE WHEN TEMP. IS OUTSIDE YOUR THRESHOLD LIMIT
+
 import twconfig, json, time
 from boltiot import Sms, Bolt
 minimum_limit = 0
