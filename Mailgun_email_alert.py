@@ -1,3 +1,5 @@
+# IT SENDS EMAIL WHEN THERE WILL BE MORE LIGHT THAN LIMITS SET BY YOU
+
 import email_conf as conf
 from boltiot import Email, Bolt
 import json, time
