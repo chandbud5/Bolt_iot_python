@@ -1,3 +1,5 @@
+#GIVES AN ALERT ON TELEGRAM WHEN LM35 SENSOR VALUE CROSSES THRESHOLD
+
 import requests                 # for making HTTP requests
 import json                     # library for handling JSON data
 import time                     # module for sleep operation
