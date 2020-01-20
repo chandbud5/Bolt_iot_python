@@ -1,7 +1,9 @@
+# BUZZER WILL ALERT YOU WHEN BITCOIN PRICE IS MORE THAN YOUR SET SELLING PRICE (line 6)
+
 import time,json,requests
 from boltiot import Bolt
 
-selling = 8575
+selling = 8600
 
 api_key = "57844883-03f3-4621-a0c1-d7c2a494fedf"
 device_id = "BOLT290817"
