@@ -1,3 +1,3 @@
 # Bolt_iot_python
 
-programs are in python and based on Bolt IoT course executed in ubuntu by me
+These projects are related to Internet of things(IoT). These programs are made to run on Bolt WiFi module.
