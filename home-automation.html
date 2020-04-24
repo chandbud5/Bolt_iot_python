@@ -1,0 +1,19 @@
+<!–– This file is to be uploaded on bolt cloud platform and it will run it on your cloud dashboard as well as on your bolt iot app. To run this you should have Bolt WiFi module.
+Circuit connections - Insert negative leg into ground pin of wifi module. Add a resistor to positive leg and other end of resistor to digital pin 0 in your module. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bolt IoT Platform</title>
+        <script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+        <script>
+        setKey('{{ApiKey}}','{{Name}}');
+        </script>
+    </head>
+    <body>
+        <center>
+        <button onclick="digitalWrite(0, 'HIGH');">ON</button>
+        <button onclick="digitalWrite(0, 'LOW');">OFF</button>
+        </center>
+    </body>
+</html>
