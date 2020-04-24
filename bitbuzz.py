@@ -5,8 +5,9 @@ from boltiot import Bolt
 
 selling = 8600
 
-api_key = "57844883-03f3-4621-a0c1-d7c2a494fedf"
-device_id = "BOLT290817"
+# ADD YOUR API KEY AND DEVICE ID HERE
+api_key = ""
+device_id = ""
 mybolt = Bolt(api_key,device_id)
 
 def get_bitcoin_price():
@@ -30,3 +31,6 @@ while True:
 		print(response)
 
 	time.sleep(30)
+
+# TO ADD ALERTS ON TEXT MESSAGE AND MAIL CHECKOUT mailgun_email_alert.py FILE AND message alert_twilio.py FILE.
+# USING ALL THESE FILE TRY TO CREATE YOUR YOUR CODE
